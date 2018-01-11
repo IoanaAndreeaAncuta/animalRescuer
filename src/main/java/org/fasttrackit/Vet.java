@@ -2,8 +2,11 @@ package src.main.java.org.fasttrackit;
 
 public class Vet {
 
-    String name;
-    String specialization;
-    String location;
+    private String name;
+    private String specialization;
+    private String location;
 
+    public String getName() {
+        return name;
+    }
 }

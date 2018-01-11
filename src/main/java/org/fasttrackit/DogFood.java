@@ -2,8 +2,14 @@ package src.main.java.org.fasttrackit;
 
 public class DogFood {
 
-    double price;
-    double quantity;
+    private double price;
+    private double quantity;
     String name;
+
+    public DogFood(String name) {
+        this.name = name;
+    }
+
+
 
 }

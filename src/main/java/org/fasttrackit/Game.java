@@ -2,9 +2,11 @@ package src.main.java.org.fasttrackit;
 
 public class Game {
 
-    Rescuer rescuer;
-    Dog dog;
-    DogFood dogFood;
-    Vet vet;
+    private Rescuer rescuer;
+    private Dog dog;
+    private Cat animal;
+    private DogFood dogFood;
+    private Vet vet;
+
 
 }
